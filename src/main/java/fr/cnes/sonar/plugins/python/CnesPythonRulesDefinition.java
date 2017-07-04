@@ -1,14 +1,14 @@
-package fr.cnes.sonar.plugins.analysis.rules.python;
+package fr.cnes.sonar.plugins.python;
 
 import com.google.common.base.Charsets;
 import org.sonar.api.server.rule.RulesDefinition;
 import org.sonar.api.server.rule.RulesDefinitionXmlLoader;
 
 /**
- * Define the additional rules needed by CNES for code analysis.
+ * Define the additional rules needed by CNES for code python.
  * This file is largely inspired by the class PylintRuleRepository
  * from the SonarPython plugin.
- * @author garconb
+ * @author begarco
  */
 public class CnesPythonRulesDefinition implements RulesDefinition {
 

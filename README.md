@@ -1,3 +1,3 @@
-#SonarQube CNES Plugin
+#SonarQube CNES Python Plugin
 
-CNES plugin for SonarQube: launch analysis directly from the web interface and export reports.
+CNES plugin for SonarQube that provides further rules to check to Pylint using Pylint CNES Checker Plugin.
