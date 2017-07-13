@@ -10,7 +10,7 @@ import org.sonar.api.server.rule.RulesDefinitionXmlLoader;
 import static org.junit.Assert.*;
 
 /**
- * Test for the CxxSensor class
+ * Test for the CnesPythonRulesDefinition class
  * @author begarco
  */
 public class CnesPythonRulesDefinitionTest {
