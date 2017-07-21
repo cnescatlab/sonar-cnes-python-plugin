@@ -19,7 +19,7 @@ public class CnesPythonRulesDefinition implements RulesDefinition {
     /**
      * Key of the repository where we want to add the new rules
      */
-    private static final String REPOSITORY_KEY = REPOSITORY_NAME;
+    private static final String REPOSITORY_KEY = "Pylint";
 
     /**
      * Path to the file containing cnes checker rules to import

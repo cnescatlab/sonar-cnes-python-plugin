@@ -6,9 +6,8 @@
         <configKey>C0411</configKey>
         <description>
             <![CDATA[Wrong import order.
-               <p>%s comes before %s Used when PEP8 import order is not respected
-               (standard imports first, then third-party libraries, then local imports).</p>
-      ]]>
+            <p>%s comes before %s Used when PEP8 import order is not respected
+            (standard imports first, then third-party libraries, then local imports).</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -18,9 +17,8 @@
         <configKey>C0413</configKey>
         <description>
             <![CDATA[Wrong import position.
-               <p>Import “%s” should be placed at the top of the module.
-               Used when code and imports are mixed.</p>
-      ]]>
+            <p>Import “%s” should be placed at the top of the module.
+            Used when code and imports are mixed.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -30,9 +28,8 @@
         <configKey>C0113</configKey>
         <description>
             <![CDATA[Unneeded not.
-               <p>Consider changing “%s” to “%s”.
-               Used when a boolean expression contains an unneeded negation.</p>
-      ]]>
+            <p>Consider changing “%s” to “%s”.
+            Used when a boolean expression contains an unneeded negation.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -42,11 +39,10 @@
         <configKey>C0122</configKey>
         <description>
             <![CDATA[Misplaced constant in comparison.
-               <p>Comparison should be %s.
-               Used when the constant is placed on the left side
-               of a comparison. It is usually clearer in intent
-               to place it in the right hand side of the comparison.</p>
-      ]]>
+            <p>Comparison should be %s.
+            Used when the constant is placed on the left side
+            of a comparison. It is usually clearer in intent
+            to place it in the right hand side of the comparison.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -56,9 +52,8 @@
         <configKey>R0203</configKey>
         <description>
             <![CDATA[No static method decorator.
-               <p>Consider using a decorator instead of calling static method.
-               Used when a static method is defined without using the decorator syntax.</p>
-      ]]>
+            <p>Consider using a decorator instead of calling static method.
+            Used when a static method is defined without using the decorator syntax.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -68,10 +63,9 @@
         <configKey>R0204</configKey>
         <description>
             <![CDATA[Redefinition of the type of a variable.
-               <p>Redefinition of %s type from %s to %s.
-               Used when the type of a variable changes inside
-               a method or a function.</p>
-      ]]>
+            <p>Redefinition of %s type from %s to %s.
+            Used when the type of a variable changes inside
+            a method or a function.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>
@@ -81,9 +75,8 @@
         <configKey>C0412</configKey>
         <description>
             <![CDATA[Redefinition of the type of a variable.
-               <p>Imports from package %s are not grouped.
-               Used when imports are not grouped by packages.</p>
-      ]]>
+            <p>Imports from package %s are not grouped.
+            Used when imports are not grouped by packages.</p>]]>
         </description>
         <priority>CRITICAL</priority>
     </rule>

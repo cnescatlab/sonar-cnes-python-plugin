@@ -4,7 +4,7 @@ import org.sonar.api.Plugin;
 
 /**
  * This class is the entry point for all extensions. It is referenced in pom.xml.
- * @author garconb
+ * @author begarco
  */
 public class CnesPythonPlugin implements Plugin {
 
