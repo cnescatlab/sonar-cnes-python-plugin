@@ -1,7 +1,7 @@
 /**
  * General package for the plugin.
  * Contains the both classes needed to import CNES Checker's rules.
- * @author begarco
+ * @author lequal
  * @version 1.0
  */
 

@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 /**
  * Test for the CnesPythonRulesDefinition class
- * @author begarco
+ * @author lequal
  */
 public class CnesPythonRulesDefinitionTest {
 

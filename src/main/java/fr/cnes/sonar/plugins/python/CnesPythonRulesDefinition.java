@@ -8,14 +8,14 @@ import org.sonar.api.server.rule.RulesDefinitionXmlLoader;
  * Define the additional rules needed by CNES for code python.
  * This file is largely inspired by the class PylintRuleRepository
  * from the SonarPython plugin.
- * @author begarco
+ * @author lequal
  */
 public class CnesPythonRulesDefinition implements RulesDefinition {
 
     /**
      * Just the name Pylint
      */
-    static final String PYLINT = "Pylint";
+    private static final String PYLINT = "Pylint";
     /**
      * Name of the repository where we want to add the new rules
      */

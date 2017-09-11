@@ -7,3 +7,5 @@ L
 sonar-cnes-python-plugin.iml,7\4\74bf740b50cb01d6fc50f0b9700e84758e69ead9
 ;
 .travis.yml,d\e\dea01dd89a3b602828e630677fde5d77c06441c8
+H
+sonar-project.properties,2\5\2538046035efb77ecc44e1fd2eec1e2641594d4c
