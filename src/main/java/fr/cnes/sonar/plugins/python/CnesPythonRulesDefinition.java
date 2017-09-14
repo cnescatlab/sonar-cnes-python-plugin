@@ -65,7 +65,7 @@ public class CnesPythonRulesDefinition implements RulesDefinition {
      * Default constructor
      * @param xmlRulesLoader loader for python rules (come from Python Sonar Plugin)
      */
-    public CnesPythonRulesDefinition(RulesDefinitionXmlLoader xmlRulesLoader) {
+    public CnesPythonRulesDefinition(final RulesDefinitionXmlLoader xmlRulesLoader) {
         this.xmlLoader = xmlRulesLoader;
     }
 
@@ -75,7 +75,7 @@ public class CnesPythonRulesDefinition implements RulesDefinition {
      * @param context The plugin context
      */
     @Override
-    public void define(Context context) {
+    public void define(final Context context) {
         // create a rules repository to contain new rules
         final NewRepository repository = context
                 .createRepository(REPOSITORY_KEY, PYTHON_KEY)

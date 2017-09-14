@@ -31,7 +31,17 @@ import static org.junit.Assert.*;
  */
 public class CnesPythonRulesDefinitionTest {
 
+	/**
+	 * Rules' number expected to be added by the plugin
+	 */
+    private static final int PLUGIN_RULES_NUMBER = 22;
+	/**
+	 * RulesDefinition for testing
+	 */
     private CnesPythonRulesDefinition definition;
+    /**
+     * Stubbed context for testing
+     */
     private RulesDefinition.Context context;
 
     /**
@@ -39,7 +49,7 @@ public class CnesPythonRulesDefinitionTest {
      */
     @Before
     public void prepare() {
-        RulesDefinitionXmlLoader rulesDefinitionXmlLoader = new RulesDefinitionXmlLoader();
+    	final RulesDefinitionXmlLoader rulesDefinitionXmlLoader = new RulesDefinitionXmlLoader();
         definition = new CnesPythonRulesDefinition(rulesDefinitionXmlLoader);
         context = new RulesDefinition.Context();
     }
@@ -53,13 +63,13 @@ public class CnesPythonRulesDefinitionTest {
     public void definitionRuleTest() {
         definition.define(context);
 
-        RulesDefinition.Repository repository = context.repository("Pylint");
+        final RulesDefinition.Repository repository = context.repository("Pylint");
 
         assertEquals("Pylint", repository.name());
         assertEquals("py", repository.language());
-        assertEquals(22, repository.rules().size());
+        assertEquals(PLUGIN_RULES_NUMBER, repository.rules().size());
 
-        RulesDefinition.Rule cnesCheckerRule = repository.rule("R5101");
+        final RulesDefinition.Rule cnesCheckerRule = repository.rule("R5101");
         assertNotNull(cnesCheckerRule);
         assertEquals(RuleType.CODE_SMELL, cnesCheckerRule.type());
         assertEquals("More than one exit statement for this loop", cnesCheckerRule.name());
@@ -71,7 +81,6 @@ public class CnesPythonRulesDefinitionTest {
      * Assert that multiple definition of the same rules do not impact
      * the plugin workflow.
      */
-    @Test(expected = Exception.class)
     public void multipleRulesDefinitionsTest() throws Exception {
 
         // Calling definition multiple time should not lead to failure: thanks C# plugin !
@@ -80,7 +89,7 @@ public class CnesPythonRulesDefinitionTest {
         // Calling definition multiple time should not lead to failure: thanks C# plugin !
         definition.define(new RulesDefinition.Context());
 
-        throw new Exception();
+        assert(definition.equals(definition));
     }
 
 }

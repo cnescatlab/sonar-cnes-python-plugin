@@ -32,7 +32,7 @@ public class CnesPythonPlugin implements Plugin {
      * @param context Execution context of the plugin
      */
     @Override
-    public void define(Context context) {
+    public void define(final Context context) {
         // add new python rules (checker-cnes and other pylint rules)
         context.addExtension(CnesPythonRulesDefinition.class);
     }
