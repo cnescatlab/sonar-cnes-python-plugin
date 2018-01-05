@@ -1,4 +1,4 @@
-# SonarQube CNES Python Plugin
+# SonarQube CNES Python Plugin [![Build Status](https://travis-ci.org/lequal/sonar-cnes-python-plugin.svg?branch=master)](https://travis-ci.org/lequal/sonar-cnes-python-plugin) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin)](https://sonarcloud.io/dashboard?id=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin)
 SonarQube is an open platform to manage code quality. This plugin adds further rules to check to Pylint using Pylint CNES Checker Plugin.
 
 This plugin is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
