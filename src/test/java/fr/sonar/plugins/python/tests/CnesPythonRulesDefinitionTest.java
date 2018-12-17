@@ -34,7 +34,7 @@ public class CnesPythonRulesDefinitionTest {
 	/**
 	 * Rules' number expected to be added by the plugin
 	 */
-    private static final int PLUGIN_RULES_NUMBER = 22;
+    private static final int PLUGIN_RULES_NUMBER = 16;
 	/**
 	 * RulesDefinition for testing
 	 */
