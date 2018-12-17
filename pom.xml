@@ -5,7 +5,7 @@
     <groupId>fr.cnes.sonar.plugins.python</groupId>
     <artifactId>sonar-cnes-python-plugin</artifactId>
     <packaging>sonar-plugin</packaging>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <name>SonarQube CNES Python Plugin</name>
     <description>CNES plugin for SonarQube that provides further rules to check to Pylint using Pylint CNES Checker Plugin.</description>
