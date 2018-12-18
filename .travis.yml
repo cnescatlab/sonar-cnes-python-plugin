@@ -26,7 +26,7 @@ deploy:
   file_glob: true
   file: "sonar-cnes-python-plugin-*.jar"
   skip_cleanup: true
+  name: "cnespython plugin version X.X"
   draft: true
   on:
     branch: master
-    tag: true
