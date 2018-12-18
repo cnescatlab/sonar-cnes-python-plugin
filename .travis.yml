@@ -19,3 +19,14 @@ cache:
 
 notifications:
   email: false
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file_glob: true
+  file: "target/sonar-cnes-python-plugin-*.jar"
+  skip_cleanup: true
+  name: "cnespython plugin version X.X"
+  draft: true
+  on:
+    branch: master
