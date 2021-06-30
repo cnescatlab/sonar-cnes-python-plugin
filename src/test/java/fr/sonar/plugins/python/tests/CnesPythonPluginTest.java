@@ -20,6 +20,7 @@ import fr.cnes.sonar.plugins.python.CnesPythonPlugin;
 import org.junit.Before;
 import org.junit.Test;
 import org.sonar.api.Plugin;
+import org.sonar.api.SonarEdition;
 import org.sonar.api.SonarQubeSide;
 import org.sonar.api.SonarRuntime;
 import org.sonar.api.internal.SonarRuntimeImpl;
@@ -52,7 +53,7 @@ public class CnesPythonPluginTest {
      */
     @Test
     public void sonarqubePluginDefinitionTest() {
-        final SonarRuntime runtime = SonarRuntimeImpl.forSonarQube(Version.create(6,3), SonarQubeSide.SERVER);
+        final SonarRuntime runtime = SonarRuntimeImpl.forSonarQube(Version.create(6,3), SonarQubeSide.SERVER, SonarEdition.COMMUNITY);
         final Plugin.Context context = new Plugin.Context(runtime);
         cnesPythonPlugin.define(context);
         assertEquals(context.getExtensions().size(), 1);
