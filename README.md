@@ -1,3 +1,9 @@
+## :warning: Deprecation notice
+
+This project is no longer maintained as SonarQube consider pylint as an external analyzer. Feel free to fork this project and adapt plugin to your needs if necessary. Code is available as-is: we do not give any support for this project anymore.
+
+Please refer to the [Sonarqube documentation](https://docs.sonarqube.org/latest/analyzing-source-code/importing-external-issues/importing-third-party-issues/) if you need to import pylint output in sonarqube.
+
 # SonarQube CNES Python Plugin [![Build Status](https://travis-ci.org/lequal/sonar-cnes-python-plugin.svg?branch=master)](https://travis-ci.org/lequal/sonar-cnes-python-plugin) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin&metric=alert_status)](https://sonarcloud.io/dashboard?id=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin&metric=coverage)](https://sonarcloud.io/dashboard?id=fr.cnes.sonar.plugins.python%3Asonar-cnes-python-plugin)
 SonarQube is an open platform to manage code quality. This plugin adds further rules to check to Pylint using Pylint CNES Checker Plugin.
 
